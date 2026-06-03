@@ -6,8 +6,8 @@ Application Streamlit de gestion (CRUD) et de prédiction sur le jeu de données
 ## Prérequis
 
 - Python ≥ 3.11
-- [uv](https://docs.astral.sh/uv/) (gestionnaire d'environnement et de dépendances).
-  Installation : voir la doc officielle, ou sous Windows :
+- [uv](https://docs.astral.sh/uv/).
+  Installation sous Windows :
   `powershell -c "irm https://astral.sh/uv/install.ps1 | iex"`
 
 ## Installation
