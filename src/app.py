@@ -5,7 +5,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 import streamlit as st
 
-import data_manager as dm
+import data as dm
 import model as ml
 
 st.set_page_config(page_title="Housing ML CRUD", page_icon="🏠", layout="wide")
@@ -52,7 +52,7 @@ MEDIANES = {
 }
 
 
-# ── Page 0 : Présentation ────────────────────────────────────────────────────
+#  Page 0 : Présentation 
 if page == "🏠 Présentation":
     st.header("Présentation")
     st.write(
@@ -100,7 +100,7 @@ if page == "🏠 Présentation":
     )
 
 
-# ── Page 1 : Données / CRUD ──────────────────────────────────────────────────
+#  Page 1 : Données / CRUD 
 elif page == "📋 Données / CRUD":
     st.header("Gestion des données")
 
@@ -164,7 +164,7 @@ elif page == "📋 Données / CRUD":
                 st.rerun()
 
 
-# ── Page 2 : Entraînement ────────────────────────────────────────────────────
+#  Page 2 : Entraînement 
 elif page == "🧠 Entraînement":
     st.header("Entraînement du modèle")
     st.write(
@@ -196,7 +196,7 @@ elif page == "🧠 Entraînement":
         st.caption(f"Modèle sauvegardé : `{metrics['model_path']}`")
 
 
-# ── Page 3 : Prédiction ──────────────────────────────────────────────────────
+#  Page 3 : Prédiction 
 elif page == "🔮 Prédiction":
     st.header("Prédiction du prix médian")
     st.write(

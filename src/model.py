@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error, r2_score
 
-from data_manager import read_all, FEATURE_COLS, TARGET_COL
+from data import read_all, FEATURE_COLS, TARGET_COL
 
 MODEL_PATH = Path(__file__).parent.parent / "models" / "rf_model.joblib"
 

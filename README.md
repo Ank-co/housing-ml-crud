@@ -1,7 +1,7 @@
 # Housing ML CRUD
 
 Application Streamlit de gestion (CRUD) et de prédiction sur le jeu de données
-**California Housing** (scikit-learn).
+**California Housing** de scikit-learn.
 
 ## Prérequis
 
@@ -30,7 +30,7 @@ uv run streamlit run src/app.py
 ```
 housing-ml-crud/
 ├── pyproject.toml          # dépendances gérées par uv
-├── requirements.txt        # conservé comme référence (migration pip → uv)
+├── requirements.txt        # conservé comme référence (migration pip vers uv)
 ├── data/
 │   └── housing.csv         # généré automatiquement au premier lancement
 ├── models/
@@ -48,5 +48,5 @@ housing-ml-crud/
 | Page | Description |
 |------|-------------|
 | **Données / CRUD** | Visualiser, ajouter, modifier, supprimer des lignes |
-| **Entraînement** | Entraîner un `RandomForestRegressor` sur les données |
+| **Entraînement** | Entraîner un Random Forest Regressor sur les données |
 | **Prédiction** | Saisir des caractéristiques et obtenir une estimation du prix |

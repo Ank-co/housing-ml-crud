@@ -1,5 +1,5 @@
-# Fichier conservé pour compatibilité — le projet utilise désormais uv (pyproject.toml).
-# Pour installer les dépendances, préférer : uv sync
+# Fichier conservé pour compatibilité, le projet utilise désormais uv (pyproject.toml).
+# Pour installer les dépendances, préférer uv sync
 streamlit>=1.35.0
 scikit-learn>=1.5.0
 pandas>=2.2.0
